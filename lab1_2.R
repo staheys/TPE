@@ -16,8 +16,9 @@ plot(
   main = "График функции y = 8x^2 + 5x",
   xlab = "x",
   ylab = "y",
-  lwd = 2,
-  pch = 16
+  lwd = 4,
+  pch = 32,
+  col = "red"
 )
 
 grid()
