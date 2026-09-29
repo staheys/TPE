@@ -12,6 +12,6 @@ plot(x, y,
      pch = 19,
      xlab = "X",
      ylab = "Y",
-     main = "Линейная регрессия")
+     main = "Linear regression")
 
 abline(model1, lwd = 2)
