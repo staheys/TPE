@@ -39,9 +39,9 @@ T_grid <- predict(
 plot(
   v, T,
   pch = 19,
-  xlab = "Скорость ветра v",
-  ylab = "Ощущаемая температура T",
-  main = "Нелинейная регрессия"
+  xlab = "Wind speed v",
+  ylab = "Feels like T",
+  main = "Nonlinear regression"
 )
 
 lines(v_grid, T_grid, lwd = 2)
