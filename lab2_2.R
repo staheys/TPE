@@ -53,3 +53,5 @@ model2 <- lm(
 
 summary(model2)
 coef(model2)
+
+predict(model2, newdata = data2[1, ])

@@ -15,3 +15,5 @@ plot(x, y,
      main = "Linear regression")
 
 abline(model1, lwd = 2)
+
+cor <- cor(x, y)
